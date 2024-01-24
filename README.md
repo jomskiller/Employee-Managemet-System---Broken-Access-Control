@@ -10,7 +10,7 @@ Affected Component:
 
 CWE-284: Improper Access Control
 
-CVSS 3.1 Score: 5.5
+CVSS 3.1 Score: 5.5 (self - rated with the help of online CVSS calculator)
 
 Impact: Broken access control vulnerabilities (CWE-284) pose a significant threat, potentially resulting in unauthorized access, data breaches, privilege escalation, and data manipulation. Such vulnerabilities may compromise the confidentiality of sensitive information, lead to inaccurate data, and elevate the risk of unauthorized account access. Beyond immediate security concerns, the regulatory non-compliance resulting from these issues can have legal repercussions, while the ensuing business disruption and reputation damage may incur financial and long-term consequences. To mitigate these impacts, organizations must implement robust access controls, adhere to the principle of least privilege, and regularly assess and address access control vulnerabilities through comprehensive security practices.
 

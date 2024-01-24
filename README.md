@@ -18,4 +18,12 @@ Only administrators are allowed to decline or approved a Leave request but we du
 
 To replicate the attack:
 1.Login as a employee 
-Visit /employee_akpoly/Employee/index.php and intercept the request using burpsuite.
+2.Visit /employee_akpoly/Employee/index.php and intercept the request using burpsuite.
+
+![image1](https://github.com/jomskiller/Employee-Managemet-System---Broken-Access-Control/blob/main/image1.png)
+
+3.Change the target url of the GET method to /employee_akpoly/Admin/delete-leave.php?id=requestid you want to decline if you want to accept use /employee_akpoly/Admin/process_leave.php?id=requestid 
+Note: on id parameter input the requestid of the request you want to approve or decline.
+
+![image2](https://github.com/jomskiller/Employee-Managemet-System---Broken-Access-Control/blob/main/image2.png)
+![image3](https://github.com/jomskiller/Employee-Managemet-System---Broken-Access-Control/blob/main/image3.png)
